@@ -1,0 +1,24 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+// 1. Configuration
+@import 'global/fonts',
+        'global/functions',
+        'global/mixins',
+        'global/variables';
+
+// 2. Vendors
+@import 'vendor/reset';
+
+// 3. Base stuff
+@import 'base/base',
+        'base/helpers';
+
+// 4. Layout-related sections
+@import 'layout/grid',
+        'layout/header',
+        'layout/footer';
+
+// 5. Components
+@import 'components/buttons';
